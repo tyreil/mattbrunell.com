@@ -228,6 +228,7 @@ input, select, textarea {
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-size: cover;
+		background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -301,7 +302,8 @@ input, select, textarea {
 
 	#bg {
 		background-size: 2250px auto;
-		width: 6750px;
+		width: 100vw;
+		height: 100vh;
 	}
 
 /* Overlay */
